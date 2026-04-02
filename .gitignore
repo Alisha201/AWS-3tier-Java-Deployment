@@ -1,0 +1,13 @@
+#  Java & Maven 
+target/
+*.class
+*.jar
+*.zip
+*.tar.gz
+
+# AWS & Packer
+.aws/
+credentials
+*.pem
+.packer/
+crash.log

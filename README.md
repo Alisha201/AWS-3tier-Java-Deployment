@@ -43,7 +43,7 @@ To get the Java app talking to the database, I used a **Launch Template** with a
 
 * **Security Group Dependencies:**  I realized you can't delete SGs that reference each other. I had to learn to break the "chain of trust" rules first before AWS would let me clean up.
 * **The User Data Struggle:** Debugging Bash syntax inside an AWS User Data script is tricky. I had some trial and error getting `${DB_ENDPOINT}` to export correctly so the JAR file could pick it up during the systemd start.
-* 
+
 ---
 
 ##  Future Roadmap: Moving to Terraform
